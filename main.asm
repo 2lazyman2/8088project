@@ -90,8 +90,8 @@ kb_init:
     mov dx,2000h
     mov ds,dx
     mov bx,0
-    mov [bx-1],0
-    mov [bx-2],0
+    mov byte[bx-1],0
+    mov byte[bx-2],0
     ret    
 lcd_next_line:
     nop
