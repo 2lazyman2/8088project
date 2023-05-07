@@ -1,0 +1,21 @@
+lcd_cmd    equ 0x0000
+lcd_data   equ 0x0001
+ppi_porta  equ 0x0000
+ppi_portb  equ 0x0010
+ppi_portc  equ 0x0020
+ppi_cmd    equ 0x0030
+ppi2_porta equ 0x0040
+ppi2_portb equ 0x0050
+ppi2_portc equ 0x0060
+ppi2_cmd   equ 0x0070
+scn_2674   equ 0x00f0
+
+pic_en     equ 0x0040
+nmi_num    equ 0x0002
+icw1       equ 0x0013
+icw2       equ 0x0010
+icw4       equ 0x0001
+pic_reg    equ 0x0080
+kb_nmi     equ 0x0002
+kb_intv    equ 0x0010
+trap_intv  equ 0x0001
